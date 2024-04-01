@@ -1,0 +1,108 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("img/1.jfif");
+  background-size: cover;
+    background-color: white;
+    color: black;
+}
+
+header {
+  background-color: #2a69ad;
+  color: #ffffff;
+  padding: 1rem;
+  text-align: center;
+}
+
+h1 {
+  font-family: verdana;
+    font-size: 30px;
+    margin-top: 60px;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  background-color: #dddbdb;
+}
+
+aside {
+  width: 20%;
+  background-color: #f4f4f4;
+  padding: 1rem;
+}
+
+footer {
+  background-color: #2a69ad;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+section {
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 0px 20px 0px 20px;
+}
+
+#tela {
+  font-size: 18px;
+  font-family: Arial;
+  font-weight: bold;
+  color : rgb(255, 255, 255);
+  background-color: rgb(6, 22, 255);
+  text-decoration: none;
+  padding: 5px 20px 5px 20px;
+  border-left: 2px solid rgb(0, 0, 0);
+  border-radius: 40px;
+  margin-left: 5px;
+  margin-right: 5px;
+
+} 
+
+h3 {
+  font-family: verdana;
+    font-size: 22px;
+    margin-top: 40px;
+}
+
+span {
+  font-family: verdana;
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+  background-color: red;
+  margin: 00px 25px 00px 55px;
+  padding: 02px 10px 2px 10px;
+  border: 2px solid red;
+  border-radius: 00px 10px;
+}
+
+#idSection ul,li {
+  margin: 15px 15px 15px 10px;
+}
+
+/* .dark-mode {
+  background-color: black;
+  color: white;
+} */
+
+a, li {
+  font-size: 15px;
+  font-family: Arial;
+  text-decoration: none;
+  color : #020000;
+}
+
+#imgg {
+  text-align: center;
+ margin-right: 650px;
+}
+
+img {
+  width: 600px;
+  height: 600px;
+  border-radius: 15px;
+}
