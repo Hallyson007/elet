@@ -13,29 +13,30 @@
     
     <header>
         <div>
-            <button onclick="myFunction()">Dark Mode</button>
+            <!-- <button onclick="myFunction()">Dark Mode</button> -->
         </div>
         <h1>Loja de Eletrônicos</h1>
         <nav>
-            <a href="#">Início</a>
-            <a href="#">Produtos</a>
-            <a href="#">Contato</a>
+            <a href="#" id="tela">Início</a>
+            <a href="#" id="tela">Produtos</a>
+            <a href="#" id="tela">Contato</a>
         </nav>
     </header>
     <main>
         
         <!-- Conteúdo principal aqui -->
         <section id="idSection">
-            <h2>Produtos em Destaque</h2>
+            <h3>Produtos em Destaque</h2>
+            <span>40% OFF!</span>
             <!-- Exemplo de lista de produtos -->
-            <ul>
+            <ul type="circle">
                 <li>Fones de ouvidos</li>
                 <li>Luminárias</li>
                 <li>Capas p/ Diversos</li>
             </ul>
 
             <h3>Categorias</h3>
-            <ul>
+            <ul type="circle">
                 <li><a href="#">Celulares</a></li>
                 <li><a href="#">Carregadores</a></li>
                 <li><a href="#">Games Retro 4k</a></li>
@@ -46,7 +47,7 @@
                 <li><a href="#">Mouse e Teclados</a></li>
             </ul>
         </section>
-        <img src="img/1.jfif" alt="img">
+        <div id="imgg">   <img src="img/1.jfif" alt="img">     </div>
     </main>
 
     <footer>
